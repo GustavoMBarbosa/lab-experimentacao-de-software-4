@@ -5,7 +5,6 @@
 * **🎓 Curso:** Engenharia de Software
 * **📘 Disciplina:** Laboratório de Experimentação de Software
 * **🗓 Período:** 6° Período
-* **👨‍🏫 Professor:** João Paulo Carneiro Aramuni
 * **👥 Membros do Grupo:** Gabriel Henrique Silva Pereira e Gustavo Menezes Barbosa
 
 ---
