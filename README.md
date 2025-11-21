@@ -14,27 +14,50 @@ O objetivo é transformar os dados coletados em informações visuais que auxili
 
 ---
 
-## Sprint Atual — Lab04S01: Caracterização do Dataset
-Nesta primeira sprint, o foco é na **caracterização do dataset** utilizado no trabalho.  
-Foram utilizadas as bases geradas no **Laboratório 3**, compostas por informações de *Pull Requests (PRs)* de repositórios populares do GitHub.
+## Lab04S01 — Caracterização do Dataset
 
-### Entregas desta Sprint
-- Importação do dataset `pull_requests.csv` no Power BI.  
-- Criação das primeiras visualizações exploratórias (gráficos de distribuição e resumo estatístico):  
-  - Distribuição do tempo de análise dos PRs (`AnalysisTimeHours`)  
-  - Distribuição do tamanho dos PRs (`Additions` + `Deletions`)  
-  - Distribuição do número de revisões (`Reviews`)  
-  - Distribuição do número de interações (`Comments`, `Participants`, `Reviews`)  
-- Inserção de descrições e títulos explicativos no dashboard.
+Nesta primeira etapa, foi realizada a **exploração inicial e caracterização do dataset** `pull_requests.csv`. Essa fase teve como objetivo compreender o comportamento geral das variáveis analisadas.
 
-Essas visualizações permitem compreender **as características gerais do conjunto de dados**, servindo de base para as próximas etapas, que envolvem responder às questões de pesquisa (RQs).
+### **Entregas principais**
+- Importação do dataset no Power BI  
+- Construção de gráficos exploratórios, incluindo:
+  - Distribuição do tempo de análise dos PRs (`AnalysisTimeHours`)
+  - Distribuição do tamanho dos PRs (`Additions` + `Deletions`)
+  - Distribuição das revisões (`Reviews`)
+  - Distribuição das interações (`Comments`, `Participants`, `Reviews`)
+- Inclusão de textos explicativos e títulos descritivos no dashboard
+
+Essa caracterização fornece uma visão geral do conjunto de dados, servindo de base para análises mais detalhadas nas etapas seguintes.
 
 ---
 
-## Próximos Passos
-Na próxima sprint (**Lab04S02**), serão adicionadas visualizações que respondem às **RQs 1 e 2**, analisando a relação entre:
-1. O **tamanho** dos PRs e o **feedback final** (merged ou closed);  
-2. O **tempo de análise** e o **feedback final** das revisões.
+Lab04S02 — Visualizações das RQs 1 e 2
+
+Nesta sprint, foram construídas visualizações específicas para as duas primeiras questões de pesquisa:
+
+### **RQ1**  
+**Qual a relação entre o tamanho dos PRs e o feedback final das revisões (merged ou closed)?**
+
+### **RQ2**  
+**Qual a relação entre o tempo de análise dos PRs e o feedback final das revisões?**
+
+As visualizações foram elaboradas em Power BI e permitem:
+
+- Comparação direta entre PRs aprovados (merged) e rejeitados (closed)  
+- Observação de tendências  
+- Identificação de padrões relevantes no comportamento dos PRs  
+
+Essas visualizações complementam os achados estatísticos do Laboratório 3, agora apresentados em formato visual com técnicas de BI.
+
+---
+
+Lab04S03 — Dashboard Final e Consolidação das RQs
+
+Na última sprint, o objetivo é consolidar **todo o dashboard final**, reunindo:
+
+- A caracterização do dataset  
+- As visualizações das RQs 1 e 2  
+- As visualizações das demais RQs (3–8) em formato de dashboard
 
 ---
 
